@@ -13,7 +13,7 @@ pub contract MyContract {
         init(_name:String,_firstname: String,_lastname:String, _class:UInt,_account:Address) {
             self.name=_name
             self.firstname=_firstname
-            self.lname=_lastname
+            self.lastname=_lastname
             self.class=_class
             self.account=_account
         }
