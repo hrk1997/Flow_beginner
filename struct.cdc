@@ -12,9 +12,9 @@ pub contract MyContract {
     // You have to pass in 2 arguments when creating this Struct.
         init(_name:String,_firstname: String,_lastname:String, _class:UInt,_account:Address) {
             self.name=_name
-            self.firstname=_fname
-            self.lname=_mname
-            self.class=_age
+            self.firstname=_firstname
+            self.lname=_lastname
+            self.class=_class
             self.account=_account
         }
     }
