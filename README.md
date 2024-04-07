@@ -23,15 +23,15 @@ student : It is a user defined struct that represents an individual's informatio
 
   'name' : A field type of String to store the person's name.
   
-  'fname' : A field type of String to store the person's father's name.
-  'mname' : A field type of String to store the person's mother's name.
+  'firstname' : A field type of String to store the person's first name.
+  'lastname' : A field type of String to store the person's last name.
   
-  'age' : A field type of UInt to store the person's age.
+  'class' : A field type of UInt to store the class in which the person is studying.
   
   'account' : A field type of Address to store the person's blockchain address. This is used to uniquely identify individuals in the 'people' mapping.
 
  addstudent() : This is a public function defined within the contract that allows users to add a new student's information to the 'people' mapping. It takes five 
-   arguments: 'name','fname','mname','age' and 'account'. 
+   arguments: 'name','firstname','lastname','class' and 'account'. 
    
 init(): This is the contract's contstructor which is called when the contract is deployed. It intializes the contract's people mapping as an empty map.
 
