@@ -24,6 +24,7 @@ student : It is a user defined struct that represents an individual's informatio
   'name' : A field type of String to store the person's name.
   
   'firstname' : A field type of String to store the person's first name.
+ 
   'lastname' : A field type of String to store the person's last name.
   
   'class' : A field type of UInt to store the class in which the person is studying.
